@@ -26,10 +26,10 @@ Two post-processed datasets are included in this repository. We plan to periodic
 ### 'clustered_claims_export_{date}.csv'
 This contains a compressed csv for all clustered claims from our analysis. Due to the large file size, only columns 'dateOfLoss', 'latitude', 'longitude', 'st_cluster_3_5_7', and 'id' are provided. Please note that we are periodically updating this file as new claims are released. Thus, the version of clusters contained in this file does not necessarily match the exact graphs provided for analysis. For updated graphs, please re-run the graphing code with the latest version of the clustered claims file.
 
-# Contact Me!
-If you have general questions about the code or data please feel free to reach out and I am always happy to try to do my best to help out. If you're interested in using similar method or working on a new project, I am always looking to collaborate and am happy to contribute more broadly! Email is always in flux - but try me at adam.nayak@columbia.edu, adam.nayak@alumni.stanford.edu, adamnayak1@gmail.com, or feel free to ping me on LinkedIn.
-
 Last Update: 8/27/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
 
 ### 'County_Risk_Scores.csv'
 This contains a csv of all counties and their associated insolvency risk metrics, as well as their calculated aggregate risk index. For latest risk indexes, we recommend re-running the analysis for F7 using updated datasets.
+
+# Contact Me!
+If you have general questions about the code or data please feel free to reach out and I am always happy to try to do my best to help out. If you're interested in using similar method or working on a new project, I am always looking to collaborate and am happy to contribute more broadly! Email is always in flux - but try me at adam.nayak@columbia.edu, adam.nayak@alumni.stanford.edu, adamnayak1@gmail.com, or feel free to ping me on LinkedIn.
