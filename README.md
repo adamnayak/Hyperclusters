@@ -23,7 +23,7 @@ This file contains our function for Getis-Ord Hotspot analysis.
 ### Aggregate_Risk_Weights.py
 This contains all functions for our aggregate risk weight index calculations.
 
-### CPI_Adjust.py
+### CPI_Adjust.ipynb
 This notebook performs operations to adjust claims for inflation before conducting further analysis.
 
 ### 2025_Cluster_Update.ipynb
