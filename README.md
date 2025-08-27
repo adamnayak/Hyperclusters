@@ -17,6 +17,9 @@ https://doi.org/10.1038/s44304-025-00136-w
 ### ST_Cluster.py
 This contains all functions for our spatiotemporal clustering analysis and subsequent plotting.
 
+### Getis_Ord.py
+This file contains our function for Getis-Ord Hotspot analysis.
+
 ### Aggregate_Risk_Weights.py
 This contains all functions for our aggregate risk weight index calculations.
 
