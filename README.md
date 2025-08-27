@@ -10,11 +10,24 @@ Although a cornerstone of U.S. flood risk preparedness since 1968, the National 
 ## Publication Link
 https://doi.org/10.1038/s44304-025-00136-w
 
+# Repository Contents
+
+## Code
+
+### F1 - F7.ipynb
+These files are the associated code and analysis for each figure provided in the main text.
+
+### 2025_Cluster_Update.ipynb
+This is our latest code for our spatiotemporal clustering analysis. Note the code allows for generation of a range of clusters based on varying parameters. Due to file size constraints, here we provide results for 3 degrees lat/long, 5 days, and 7 minimum clustered points, in line with the main text of the manuscript and our sensitivity with disaster declarations (see the USA_Return_Periods repository for more info). If additional sensitivities are of interest, we recommend re-running this file with the parameters of interest on the latest file of FEMA's redacted claims dataset. 
+
 ## Data
 Two post-processed datasets are included in this repository. We plan to periodically update our clustered claims data  as we continue to work with updated FEMA NFIP claims datasets. Please check back periodically for updated files, or reach out directly to an3232@columbia.edu to check for more recent versions. The current version of files is provided in the file name, and will be updated below.
 
 ### 'clustered_claims_export_{date}.csv'
 This contains a compressed csv for all clustered claims from our analysis. Due to the large file size, only columns 'dateOfLoss', 'latitude', 'longitude', 'st_cluster_3_5_7', and 'id' are provided. Please note that we are periodically updating this file as new claims are released. Thus, the version of clusters contained in this file does not necessarily match the exact graphs provided for analysis. For updated graphs, please re-run the graphing code with the latest version of the clustered claims file.
+
+# Contact Me!
+If you have general questions about the code or data please feel free to reach out and I am always happy to try to do my best to help out. If you're interested in using similar method or working on a new project, I am always looking to collaborate and am happy to contribute more broadly! Email is always in flux - but try me at adam.nayak@columbia.edu, adam.nayak@alumni.stanford.edu, adamnayak1@gmail.com, or feel free to ping me on LinkedIn.
 
 Last Update: 8/27/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
 
