@@ -27,7 +27,7 @@ This contains all functions for our aggregate risk weight index calculations.
 This notebook performs operations to adjust claims for inflation before conducting further analysis.
 
 ### 2025_Cluster_Update.ipynb
-This is our latest code execution of our spatiotemporal clustering analysis. Note the code allows for generation of a range of clusters based on varying parameters. Due to file size constraints, here we provide results for 3 degrees lat/long, 5 days, and 7 minimum clustered points, in line with the main text of the manuscript and our sensitivity with disaster declarations (see the USA_Return_Periods repository for more info). If additional sensitivities are of interest, we recommend re-running this file with the parameters of interest on the latest file of FEMA's redacted claims dataset. 
+This is our latest code execution of our spatiotemporal clustering analysis. Note the code allows for generation of a range of clusters based on varying parameters. Due to file size constraints, here we provide results for 3 degrees lat/long, 5 days, and 7 minimum clustered points, in line with the main text of the manuscript and our sensitivity with disaster declarations (see the USA_Return_Periods repository for more info). If additional sensitivities are of interest, we recommend re-running this file with the parameters of interest on the latest file of FEMA's redacted claims dataset, or reach out directly for sensitivity data.
 
 ### F1 - F7.ipynb
 These files are the associated code and analysis for each figure provided in the main text.
