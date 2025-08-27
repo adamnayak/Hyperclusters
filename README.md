@@ -14,14 +14,17 @@ https://doi.org/10.1038/s44304-025-00136-w
 
 ## Code
 
-### F1 - F7.ipynb
-These files are the associated code and analysis for each figure provided in the main text.
+### ST_Cluster.py
+This contains all functions for our spatiotemporal clustering analysis and subsequent plotting.
+
+### Aggregate_Risk_Weights.py
+This contains all functions for our aggregate risk weight index calculations.
 
 ### 2025_Cluster_Update.ipynb
 This is our latest code execution of our spatiotemporal clustering analysis. Note the code allows for generation of a range of clusters based on varying parameters. Due to file size constraints, here we provide results for 3 degrees lat/long, 5 days, and 7 minimum clustered points, in line with the main text of the manuscript and our sensitivity with disaster declarations (see the USA_Return_Periods repository for more info). If additional sensitivities are of interest, we recommend re-running this file with the parameters of interest on the latest file of FEMA's redacted claims dataset. 
 
-### ST_Cluster.py
-This contains all functions for our spatiotemporal clustering analysis and subsequent plotting.
+### F1 - F7.ipynb
+These files are the associated code and analysis for each figure provided in the main text.
 
 ## Data
 Two post-processed datasets are included in this repository. We plan to periodically update our clustered claims data  as we continue to work with updated FEMA NFIP claims datasets. Please check back periodically for updated files, or reach out directly to an3232@columbia.edu to check for more recent versions. The current version of files is provided in the file name, and will be updated below.
