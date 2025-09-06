@@ -36,9 +36,9 @@ These files are the associated code and analysis for each figure provided in the
 Two post-processed datasets are included in this repository. We plan to periodically update our clustered claims data  as we continue to work with updated FEMA NFIP claims datasets. Please check back periodically for updated files, or reach out directly to an3232@columbia.edu to check for more recent versions. The current version of files is provided in the file name, and will be updated below.
 
 ### 'clustered_claims_export_{date}.csv'
-This contains a compressed csv for all clustered claims from our analysis. Due to the large file size, only columns 'dateOfLoss', 'latitude', 'longitude', 'st_cluster_3_5_7', and 'id' are provided (which allows for merging back with the original dataset from OpenFEMA). Please note that we are periodically updating this file as new claims are released. Thus, the version of clusters contained in this file does not necessarily match the exact graphs provided for analysis. For updated graphs, please re-run the graphing code with the latest version of the clustered claims file.
+This contains a compressed csv for all clustered claims from our analysis. Due to the large file size, only columns 'dateOfLoss', 'latitude', 'longitude', 'cluster', and 'id' are provided (which allows for merging back with the original dataset from OpenFEMA). Please note that we are periodically updating this file as new claims are released. Thus, the version of clusters contained in this file does not necessarily match the exact graphs provided for analysis. For updated graphs, please re-run the graphing code with the latest version of the clustered claims file.
 
-Last Update: 8/27/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
+Last Update: 9/5/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
 
 ### 'County_Risk_Scores.csv'
 This contains a csv of all counties and their associated insolvency risk metrics, as well as their calculated aggregate risk index. For latest risk indexes, we recommend re-running the analysis for F7 using updated datasets.
