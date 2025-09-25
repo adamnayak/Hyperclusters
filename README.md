@@ -38,7 +38,7 @@ Two post-processed datasets are included in this repository. We plan to periodic
 ### 'clustered_claims_export_{date}.csv'
 This contains a compressed csv for all clustered claims from our analysis. Due to the large file size, only columns 'dateOfLoss', 'latitude', 'longitude', 'cluster', and 'id' are provided (which allows for merging back with the original dataset from OpenFEMA). Please note that we are periodically updating this file as new claims are released. Thus, the version of clusters contained in this file does not necessarily match the exact graphs provided for analysis. For updated graphs, please re-run the graphing code with the latest version of the clustered claims file.
 
-Last Update: 9/5/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
+Last Update: 9/24/25 using 'FimaNfipClaims.csv' from OpenFEMA updated 8/05/25.
 
 ### 'County_Risk_Scores.csv'
 This contains a csv of all counties and their associated insolvency risk metrics, as well as their calculated aggregate risk index. For latest risk indexes, we recommend re-running the analysis for F7 using updated datasets.
